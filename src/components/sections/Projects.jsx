@@ -7,7 +7,7 @@ import constructionProject from "../../assets/construction.jpg";
 export const Projects = () => {
   const openPortfolio = () => {
     window.open(
-      "https://docs.google.com/document/d/10TSxQRFWbaU1cfzYll0IUyKQa4GswLwPHSANtJvn8pw/edit?usp=drive_link",
+      "https://colab.research.google.com/drive/1RBZwewzT_iePOE5Qn4yPVZqeovLhpqYA?usp=sharing",
     );
   };
 
