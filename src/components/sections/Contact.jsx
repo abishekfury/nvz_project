@@ -12,7 +12,7 @@ export const Contact = () => {
 
   const handleWhatsApp = () => {
     const message = `Name: ${formData.name}\nPhone: ${formData.phone}\nMessage: ${formData.message}`;
-    const url = `https://wa.me/917358755490?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/7401171934?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
 
@@ -99,14 +99,14 @@ export const Contact = () => {
               <h3 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 font-serif text-amber-400">
                 Contact Information
               </h3>
-              
+
               <div className="space-y-4 sm:space-y-6">
                 <div className="flex items-start gap-3 sm:gap-4">
                   <FaPhoneAlt className="text-amber-400 mt-0.5 sm:mt-1 flex-shrink-0 text-sm sm:text-base" />
                   <div>
                     <h4 className="font-medium text-sm sm:text-base">Phone</h4>
-                    <a href="tel:7358755490" className="text-stone-300 hover:text-amber-400 transition text-xs sm:text-sm">
-                      +91 7358755490
+                    <a href="tel:7401171934" className="text-stone-300 hover:text-amber-400 transition text-xs sm:text-sm">
+                      +91 7401171934
                     </a>
                   </div>
                 </div>
@@ -126,7 +126,13 @@ export const Contact = () => {
                   <div>
                     <h4 className="font-medium text-sm sm:text-base">Office Address</h4>
                     <p className="text-stone-300 text-xs sm:text-sm">
-                      37, KaliKunram Main Rd, Kazhikundram, Tharamani, Chennai, Tamil Nadu 600113
+                      Address 1:
+                      Building Number: 121
+                      Street Name: Vile Parle
+                      Street Address: Hanuman Road, Near Airport
+                      State: Maharashtra
+                      City: Mumbai
+                      Post Code: 400057
                     </p>
                   </div>
                 </div>

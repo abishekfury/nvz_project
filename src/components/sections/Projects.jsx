@@ -7,7 +7,7 @@ import constructionProject from "../../assets/construction.jpg";
 export const Projects = () => {
   const openPortfolio = () => {
     window.open(
-      "https://drive.google.com/drive/folders/1V0fq5ZwOE6XekqpZg55RZXFCervGBV1W?usp=drive_link",
+      "https://docs.google.com/document/d/10TSxQRFWbaU1cfzYll0IUyKQa4GswLwPHSANtJvn8pw/edit?usp=drive_link",
     );
   };
 
